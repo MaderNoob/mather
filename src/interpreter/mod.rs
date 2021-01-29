@@ -1,3 +1,4 @@
-mod lexer;
 mod errors;
-mod cached_iter;
+mod lexer;
+
+pub use lexer::Lexer;
